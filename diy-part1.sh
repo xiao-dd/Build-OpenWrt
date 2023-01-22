@@ -18,4 +18,4 @@ sed -i 's/PATCHVER:=6.1/PATCHVER:=5.15/g' target/linux/x86/Makefile
 
 
 # Add a feed source
-sed -i '$a src-git smpackage https://github.com/kenzok78/small-package' feeds.conf.default
+sed -i '$a src-git smpackage https://github.com/shidahuilang/openwrt-package' feeds.conf.default
